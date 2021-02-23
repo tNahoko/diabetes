@@ -38,7 +38,7 @@ def get_user_input():
     insulin = st.sidebar.slider('insulin', 0.0, 846.0, 30.0)
     bmi = st.sidebar.slider('BMI', 0.0, 67.1, 32.0)
     dpf = st.sidebar.slider('DPF', 0.078, 2.42, 0.3725)
-    age = st.sidebar.slider(('age', 21, 81, 29))
+    age = st.sidebar.slider('age', 21, 81, 29)
 
     user_data = {'pregnancies': pregnancies,
                  'glucose': glucose,
